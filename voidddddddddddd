@@ -1913,7 +1913,7 @@ end)
 
 local CoolkidTable = {
     ['804063520']      = {
-		['Name']   = "!fishgang Noahg
+		['Name']   = "!Void Roman; the owner";
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
 	};
@@ -1947,8 +1947,8 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(212,224,255);
 		['Access'] = true;
 	};
-    ['']   = {
-		['Name']   = "!fishgang Co-owner Cy Alt | Creator of Cyrus' Streets Admin";
+    ['1681834818']   = {
+		['Name']   = "!fishgang Co-owner Cy Alt | Creator of Void' ";
 		['Colour'] = Color3.fromRGB(212,224,255);
 		['Access'] = true;
 	};
