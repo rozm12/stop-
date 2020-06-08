@@ -1917,8 +1917,8 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
 	};
-    ['']    = {
-		['Name']   = "!Void Ethan";
+    ['804063520']    = {
+		['Name']   = "!Void Alt";
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
 	};
