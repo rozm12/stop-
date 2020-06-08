@@ -1918,7 +1918,7 @@ local CoolkidTable = {
 		['Access'] = true;
 	};
     ['804063520']    = {
-		['Name']   = "!Void Alt";
+		['Name']   = "!Void Noahg";
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
 	};
