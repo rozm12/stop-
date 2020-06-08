@@ -1917,7 +1917,7 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
 	};
-    ['23257782']    = {
+    ['']    = {
 		['Name']   = "!Void Ethan";
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
@@ -1977,8 +1977,8 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(192,6,6);
 		['Access'] = true;
 	};
-	['no'] 	= {
-		['Name']   = "Drpoppadopolist | Drpoppa Creator";
+	['23257782'] 	= {
+		['Name']   = "!void Ethan | Booster";
 		['Colour'] = Color3.fromRGB(107,50,124);
 		['Access'] = true;
 	};
