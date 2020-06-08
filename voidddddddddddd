@@ -745,7 +745,7 @@ local WChild = workspace:GetChildren()
 	end
 end,"doors",{},"locks/unlocks doors")
 
-local SpamDelay,SpamMessage,Spamming = 1,"Cyrus' Admin Or No Admin",false 
+local SpamDelay,SpamMessage,Spamming = 1,"Void'  Or No Void",false 
 AddCommand(function(Arguments)
 	if Arguments[1] then 
 		SpamMessage = table.concat(Arguments," ")
@@ -1736,7 +1736,7 @@ local PartFound = LP.Character:FindFirstChild'HumanoidRootPart' or LP.Character:
 					 Text.Position = Vector2.new(RelativeHeadPos.X,RelativeHeadPos.Y) + Vector2.new(0,-30)
 					 Text.Center = true
 					 Text.Color = EspColour
-					 Text.Text = Player.Name.." | Health: "..checkHp(Player.Character).." | Cy Admin User: "..IsUser.."\nHas: Glock "..hasItem(Player,"Glock").." | Shotty "..hasItem(Player,"Shotty").." | Vest "..hasItem(Player,"BulletResist")
+					 Text.Text = Player.Name.." | Health: "..checkHp(Player.Character).." |Void User: "..IsUser.."\nHas: Glock "..hasItem(Player,"Glock").." | Shotty "..hasItem(Player,"Shotty").." | Vest "..hasItem(Player,"BulletResist")
 					 TopLeft.From = Vector2.new(TopLeftPos.X,TopLeftPos.Y)
 					 TopLeft.To = Vector2.new(TopRightPos.X,TopRightPos.Y)
 					 TopRight.From = Vector2.new(TopRightPos.X,TopRightPos.Y)
@@ -1914,7 +1914,7 @@ end)
 local CoolkidTable = {
     ['804063520']      = {
 		['Name']   = "!Void Roman; the owner";
-		['Colour'] = Color3.fromRGB(57,52,52);
+		['Colour'] = Color3.fromRGB(12,4,134);
 		['Access'] = true;
 	};
     ['']    = {
