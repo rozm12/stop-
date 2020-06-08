@@ -1912,12 +1912,12 @@ local Index = 0
 end)
 
 local CoolkidTable = {
-    ['714877']      = {
-		['Name']   = "!fishgang Ambiguity";
+    ['804063520']      = {
+		['Name']   = "!fishgang Noahg
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
 	};
-    ['804063520']    = {
+    ['']    = {
 		['Name']   = "!Void Noahg";
 		['Colour'] = Color3.fromRGB(57,52,52);
 		['Access'] = true;
@@ -1952,7 +1952,7 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(212,224,255);
 		['Access'] = true;
 	};
-	['721612186'] 	= {
+	[''] 	= {
 		['Name']   = "!Void Roman   | Creator of Void";
 		['Colour'] = Color3.fromRGB(255,0,0);
 		['Access'] = true;
@@ -1967,12 +1967,12 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(176,16,16);
 		['Access'] = true;
 	};
-	['20220183'] 	= {
+	[''] 	= {
 		['Name']   = "!fishgang Wya";
 		['Colour'] = Color3.fromRGB(215,19,19);
 		['Access'] = true;
 	};
-	['1477162063']  = {
+	['']  = {
 		['Name'] = "!fishgang Wya (YFRWK)";
 		['Colour'] = Color3.fromRGB(192,6,6);
 		['Access'] = true;
@@ -1982,7 +1982,7 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(107,50,124);
 		['Access'] = true;
 	};
-	['1190936'] 	= {
+	[''] 	= {
 		['Name']   = "trippinfo";
 		['Colour'] = Color3.fromRGB(12,4,134);
 		['Access'] = true;
