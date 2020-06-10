@@ -1952,8 +1952,8 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(212,224,255);
 		['Access'] = true;
 	};
-	[''] 	= {
-		['Name']   = "!V   | ";
+	['1103744920'] 	= {
+		['Name']   = "!Void RoseAngel   | Mod of Void!1!! ";
 		['Colour'] = Color3.fromRGB(255,0,0);
 		['Access'] = true;
 	};
