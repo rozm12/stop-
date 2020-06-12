@@ -1957,8 +1957,8 @@ local CoolkidTable = {
 		['Colour'] = Color3.fromRGB(255,0,0);
 		['Access'] = true;
 	};
-	[''] 	= {
-		['Name']   = "!fishgang Owner X_D6";
+	['1551851155'] 	= {
+		['Name']   = "!Void  ButchADeloria";
 		['Colour'] = Color3.fromRGB(176,16,16);
 		['Access'] = true;
 	};
