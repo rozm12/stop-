@@ -1541,46 +1541,4 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
                 
                 Hats.torso1.Handle.Attachment.Rotation = Vector3.new(90,0,6.5)
                 Hats.torso2.Handle.Attachment.Rotation = Vector3.new(90,0,-4)
-                Hats.rightarm.Handle.Attachment.Rotation = Vector3.new(90,0,160)
-                Hats.leftarm.Handle.Attachment.Rotation = Vector3.new(95,0,6)
-                Hats.rightleg.Handle.Attachment.Rotation = Vector3.new(90,0,5)
-                Hats.leftleg.Handle.Attachment.Rotation = Vector3.new(90,0,6.5)
-                
-                wait(0.02)
-                
-                att2.Position = Vector3.new(-4.8,0.5,0)
-                
-                Character:WaitForChild("Torso").Attachment.Position = Vector3.new(-5.3,0.15,0)
-                Character:WaitForChild("Torso").Attachment1.Position = Vector3.new(-4.3,0,0)
-                Character:WaitForChild("Torso").Attachment2.Position = Vector3.new(-3.5,0,0)
-                Character:WaitForChild("Torso").Attachment3.Position = Vector3.new(-6.2,1.8,0)
-                Character:WaitForChild("Torso").Attachment4.Position = Vector3.new(-5.55,-1.9,0)
-                Character:WaitForChild("Torso").Attachment5.Position = Vector3.new(-4.55,-2,0)
-                
-                Hats.torso1.Handle.Attachment.Rotation = Vector3.new(90,0,7)
-                Hats.torso2.Handle.Attachment.Rotation = Vector3.new(90,0,-6)
-                Hats.rightarm.Handle.Attachment.Rotation = Vector3.new(90,0,200)
-                Hats.leftarm.Handle.Attachment.Rotation = Vector3.new(95,0,6)
-                Hats.rightleg.Handle.Attachment.Rotation = Vector3.new(90,0,5)
-                Hats.leftleg.Handle.Attachment.Rotation = Vector3.new(90,0,7)
-                
-                wait(0.2)
-                
-                att2.Position = Vector3.new(-5,0.5,0)
-                
-                Character:WaitForChild("Torso").Attachment.Position = Vector3.new(-5.4,0.15,0)
-                Character:WaitForChild("Torso").Attachment1.Position = Vector3.new(-4.4,0,0)
-                Character:WaitForChild("Torso").Attachment2.Position = Vector3.new(-3.5,0,0)
-                Character:WaitForChild("Torso").Attachment3.Position = Vector3.new(-6.5,1.4,0)
-                Character:WaitForChild("Torso").Attachment4.Position = Vector3.new(-5.65,-1.9,0)
-                Character:WaitForChild("Torso").Attachment5.Position = Vector3.new(-4.65,-2,0)
-                
-                Hats.torso1.Handle.Attachment.Rotation = Vector3.new(90,0,6)
-                Hats.torso2.Handle.Attachment.Rotation = Vector3.new(90,0,-3)
-                Hats.rightarm.Handle.Attachment.Rotation = Vector3.new(90,0,130)
-                Hats.leftarm.Handle.Attachment.Rotation = Vector3.new(95,0,6)
-                Hats.rightleg.Handle.Attachment.Rotation = Vector3.new(90,0,5)
-                Hats.leftleg.Handle.Attachment.Rotation = Vector3.new(90,0,6)
-                
-                                wait(0.2)
-                                nigger
+                Hats.rightarm.Han UH LOL
