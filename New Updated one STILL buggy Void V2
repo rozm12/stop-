@@ -67,7 +67,7 @@ local WalkShoot = true
 local AimMode = "Prediction"
 local AimlockMode = "LeftClick"
 local CamlockTarget = "Head"
-local SpamMessage = "Void'  Or No Void"
+local SpamMessage = "Cyrus' Admin Or No Admin"
 local ConfigurationFile = "CyrusStreetsAdminSettings.json"
 -- Ints -- 
 
@@ -79,13 +79,13 @@ local AimbotVelocity = 5
 local NewPredictionVelocity = 5 
 local GravGunDistance = 5
 local CrouchSpeed = 8
-local FlySpeed = 70
+local FlySpeed = 17
 local WalkSpeed = 16
 local NormalWs = 16
 local SprintSpeed = 25
 local HealBotHealth = 25
 local NormalJP = 37.5
-local AutoStompRange = 50
+local AutoStompRange = 40
 local NormalGravity = workspace.Gravity
 local BulletColour = ColorSequence.new(Color3.fromRGB(144,0,0)) -- technically not an int but we'll go with it
 local EspColour = Color3.fromRGB(255,255,255)
@@ -207,26 +207,27 @@ local BackDoorTablePlayers = {
 		['Access'] = 3;
 		['Colour'] = Color3.fromRGB(107,50,124);
 	};
-	[] = {
+	[383632734] = {
 		['Name'] = "Dot_mp4/Jack [Head-Admin]";
 		['Access'] = 3;
 		['Colour'] = Color3.fromRGB(0,0,255);
 	};
+	[1066524308] = {
 		['Name'] = "Kylee [My Gf so kill her = you die]";
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(178,242,255);
 	};
-	[] = {
+	[1528488185] = {
 		['Name'] = "Basically a Gmod Dark RP admin (Paid)";
 		['Access'] = 2;
 		['Colour'] = Color3.fromRGB(235,31,31);
 	};
-	[] = {
+	[96316322] = {
 		['Name'] = "!fishgang Ambiguity [Admin]";
 		['Access'] = 3;
 		['Colour'] = Color3.fromRGB(57,52,52);
 	};
-	[] = {
+	[714877] = {
 		['Name'] = "!fishgang Ambiguity [Admin]";
 		['Access'] = 3;
 		['Colour'] = Color3.fromRGB(57,52,52);
@@ -241,7 +242,7 @@ local SettingsTable = {
 	AimMode = "Prediction";
 	AimlockMode = "LeftClick";
 	AimbotVelocity = 5;
-	CmdBarImage = "http://www.roblox.com/asset/?id=2474242693"
+	CmdBarImage = "http://www.roblox.com/asset/?id=2812081613"
 }
 
 if game.PlaceId == 455366377 then 
@@ -1862,9 +1863,9 @@ AddCommand(function(Arguments)
 	FeLoop = not FeLoop
 	if FeLoop then 
 		wait(0.5)
-		ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("To use Feloop, Tell me what 2+2 equals - Cy","All")
+		ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("To use Feloop, Tell me  is lunar hot?","All")
 		local Chat = LP.Chatted:Wait()
-		if Chat:lower() ~= "fish" then LP:Kick('That answer is wrong.') end
+		if Chat:lower() ~= "yes" then LP:Kick('That answer is wrong.') end
 	end
 	if Arguments[1] then
 		FeLoop = true 
@@ -2613,7 +2614,7 @@ end))
 -- [[ End ]] --
 
 
-notif("Void' Streets ","took "..tostring(tick() - Tick):sub(1,8).." seconds\n(Discord: zF3AJrK)",10,"rbxassetid://") 
+notif("Void' Streets ","took "..tostring(tick() - Tick):sub(1,8).." seconds\n(sr)",10,"rbxassetid://") 
 notif("Newest Update","Full on re-write (WIP) of the whole script and has lots of new cool stuff",10,nil)
 
 
@@ -2622,39 +2623,3 @@ if LP:IsInGroup(5152759) or string.find(LP.Name:lower(),"lynx") then
 	wait(0.3)
 	while true do end
 end 
--- this was made by sleepy ENJOY XD
-
-game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
- if KeyPressed == "b" then
-local lplr = game:GetService("Players").LocalPlayer
-local Glock = lplr.Backpack:FindFirstChild("Glock")    
-local Animation = Instance.new("Animation")
-Animation.AnimationId = "rbxassetid://457896265"
-local plr = game:GetService('Players').LocalPlayer
-local HUM = plr.Character.Humanoid:LoadAnimation(Animation)        
-Glock.Equipped:connect(function()
-    wait(.0)
-    HUM:Play()
-    HUM:AdjustSpeed(0.0)
-end)
-Glock.Unequipped:connect(function()
-    HUM:Stop()
-end)
-local lplr = game:GetService("Players").LocalPlayer
-local Shotty = lplr.Backpack:FindFirstChild("Shotty")    
-local Animation = Instance.new("Animation")
-Animation.AnimationId = "rbxassetid://457896265"
-local plr = game:GetService('Players').LocalPlayer
-local HUM = plr.Character.Humanoid:LoadAnimation(Animation)        
-Shotty.Equipped:connect(function()
-    wait(.1)
-    HUM:Play()
-    HUM:AdjustSpeed(0.0)
-end)
-Shotty.Unequipped:connect(function()
-    HUM:Stop()
-end)
-end
-end)
-
-loadstring(game:HttpGet(("https://pastebin.com/raw/JFWDYzcs"),true))()
