@@ -1920,7 +1920,7 @@ AddCommand(function(Arguments)
 			end
 		end)
 	end
-end,"antikill",{},"Makes FE Loop not work (Legacy for removing right arm)","[Legacy (Optional)]")
+end,"Antifeloop",{},"Makes FE Loop not work (Legacy for removing right arm)","[Legacy (Optional)]")
 
 AddCommand(function(Arguments)
 	if Arguments[1] then 
