@@ -136,7 +136,7 @@ VoidV2.TextScaled = true
 VoidV2.TextSize = 14.000
 VoidV2.TextWrapped = true
 VoidV2.MouseButton1Down:connect (function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/rozm12/scripts/e707859cb55c7513589b6d91aeb0135cc07b5649/sctooer'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rozm12/void/master/sqwsqwswq'))()
 end)
 
 close.Name = "close"
